@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-alpine
 
-ADD . /code
-WORKDIR /code
+ADD . /app
+WORKDIR /app
     
 CMD ["gradle", "--stacktrace", "run"]
